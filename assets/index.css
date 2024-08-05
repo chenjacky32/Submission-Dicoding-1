@@ -18,7 +18,12 @@ html {
 
 body {
   font-family: "Noto sans", sans-serif;
-  max-width: fit-content;
+  margin: auto;
+}
+
+section {
+  max-width: 1200px;
+  margin: auto;
 }
 
 .navbar {
@@ -26,6 +31,8 @@ body {
   position: sticky;
   background-color: rgb(0, 0, 0, 0.8);
   z-index: 9999;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .navbar,
@@ -98,7 +105,7 @@ body {
 .About,
 .Product,
 .Contact {
-  height: 100vh;
+  /* height: 100vh; */
   padding: 6rem 8% 4rem;
 }
 
@@ -137,17 +144,13 @@ body {
   padding-inline: 2rem;
 }
 
-.Product {
-  min-height: 3000px;
-}
-
 .Product h1 {
   font-size: 3.3rem;
   text-align: center;
 }
 
 .product-section {
-  height: 100vh;
+  height: fit-content;
   padding: 5rem 2% 5rem;
   margin-top: 2rem;
   text-align: center;
